@@ -1,0 +1,48 @@
+@config "../../tailwind.config.js";
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Outfit:wght@100..900&display=swap');
+
+@theme {
+    --font-family: "Golos Text", sans-serif;
+    --color-red: #f63c6b;
+    --color-green: #0fedbe;
+    --color-brand-blue: #00bddd;
+    --color-purple: #8085ff;
+    --color-yellow: #ffaa2b;
+    --color-pink: #f044ff;
+    --color-blue-100: #2dcaff;
+    --color-blue-200: #7ddeff;
+    --color-neutral-900: #050505;
+    --color-neutral-800: #0a0a0a;
+    --color-neutral-700: #191919;
+    --color-neutral-600: #1f1f1f;
+    --color-neutral-500: #595959;
+    --color-neutral-400: #999999;
+    --color-neutral-300: #1e1e1e;
+    --spacing-1-sm: 0.188rem; /* 3px */
+    --spacing-3-sm: 0.688rem; /* 11px */
+    --spacing-4-sm: 0.938rem; /* 15px */
+    --spacing-4.5: 1.125rem; /* 18px */
+    --spacing-15: 3.875rem;/* 62px */
+    --spacing-18: 4.625rem; /* 74px */
+    --spacing-43: 10.875rem; /* 174px */
+    --spacing-trading-sidebar: 21.875rem; /* 350px */
+    --leading-5.5: 1.375rem; /* 22px */
+    --width-input-search: 14.063rem; /* 225px */
+    --width-list: calc(100% - 0.375rem);
+    --text-large: 2.5rem; /* 40px */
+
+    --breakpoint-2xl: 90rem;
+    --breakpoint-3xl: 100rem;
+}
+
+::-webkit-scrollbar {
+    width: 0.375rem; /* 6px */
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-neutral-600);
+    border-radius: 6.25rem; /* 100px */
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}

@@ -2,4 +2,4 @@
 import "./js/main.js";
 
 // CSS
-import "./styles/main.css";
+import "./css/main.css";
