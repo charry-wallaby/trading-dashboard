@@ -2,6 +2,8 @@
 
 This project is a web-based trading dashboard designed to visualize and manage trading activities efficiently.
 
+#Demo: `https://charry-wallaby.github.io/trading-dashboard/dist/`
+
 ## Technologies Used
 
 - **HTML**
